@@ -16,7 +16,6 @@ class Instruction {
 /* console.log(partOne()); */
 console.log(partTwo());
 
-
 function partOne() {
 
     const instructions = getInstructions(); 
@@ -35,7 +34,6 @@ function partOne() {
         current.processed = true;
     }
     return -1;
-
 }
 
 
@@ -53,7 +51,6 @@ function partTwo() {
     }
     return -1;
 }
-
 
 function processWithChangedOperation(instructions) {
     let total = 0;
@@ -87,9 +84,6 @@ function changeOperation(index) {
         }
     }
 }
-
-
-
 
 function getInstructions() {
     let instructions = [];
