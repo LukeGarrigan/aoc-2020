@@ -2,7 +2,7 @@
   "name": "aoc-2020",
   "version": "1.0.0",
   "description": "",
-  "main": "./12/12-day.js",
+  "main": "./14/14-day.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
